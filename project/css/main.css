@@ -1,0 +1,67 @@
+body {
+	margin : 0;
+	padding : 0;
+	font-size: 120%;
+	background: url("bg-image/bg2.jpg");
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.btn {
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+
+form, .content {
+  padding : 20px;
+	border: 1px solid #B0C4DE;
+	background : rgba(0,0,0.5,0.6);
+	border-radius: 0px 0px 10px 10px;
+	border-color: black;
+	font-family: 'Poppins', sans-serif;
+	color : white;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+} 
+
+.form-div { 
+  margin-top: 50px; 
+}
+
+#profileDisplay { 
+  display: block; 
+  width: 60%; 
+  margin: 10px auto; 
+  border-radius: 50%; 
+}
+
+.img-placeholder {
+  width: 60%;
+  color: white;
+  height: 100%;
+  background: black;
+  opacity: .7;
+  height: 210px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.img-placeholder h4 {
+  margin-top: 40%;
+  color: white;
+}
+
+.img-div:hover .img-placeholder {
+  display: block;
+  cursor: pointer;
+}
